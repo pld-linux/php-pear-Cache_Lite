@@ -12,7 +12,7 @@ License:	LGPL
 Group:		Development/Languages/PHP
 # Source0-md5:	a373f14e5739a51afdfe6d99fb1dccf6
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-URL:		http://pear.php.net/package/%{_pearname}/
+URL:		http://pear.php.net/package/Cache_Lite/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
 BuildArch:	noarch
