@@ -2,8 +2,8 @@
 %define		_class		Cache
 %define		_subclass	Lite
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - Fast and Safe little cache system
-Summary(pl):	%{_class}_%{_subclass} - Szybki i bezpieczny system buforuj±cy
+Summary:	%{_pearname} - Fast and Safe little cache system
+Summary(pl):	%{_pearname} - Szybki i bezpieczny system buforuj±cy
 Name:		php-pear-%{_pearname}
 Version:	0.3
 Release:	1
