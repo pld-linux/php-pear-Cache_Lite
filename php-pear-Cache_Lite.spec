@@ -3,15 +3,16 @@
 %define		_subclass	Lite
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - Fast and Safe little cache system
 Summary(pl):	%{_pearname} - Szybki i bezpieczny system buforuj±cy
 Name:		php-pear-%{_pearname}
-Version:	1.2
+Version:	1.3
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	7e8725a608bc95fa0bdad8cbe44fa77c
+# Source0-md5:	c4adb2713fc819bca5ca4d97dba2e7f8
 URL:		http://pear.php.net/package/Cache_Lite/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
