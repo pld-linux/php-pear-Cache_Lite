@@ -5,9 +5,9 @@
 Summary:	%{_class}_%{_subclass} - Fast and Safe little cache system
 Summary(pl):	%{_class}_%{_subclass} - Szybki i bezpieczny system buforuj±cy
 Name:		php-pear-%{_pearname}
-Version:	0.1.1
+Version:	0.2.0
 Release:	1
-License:	PHP 2.02
+License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
