@@ -1,6 +1,7 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Cache
 %define		_subclass	Lite
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - Fast and Safe little cache system
 Summary(pl):	%{_pearname} - Szybki i bezpieczny system buforuj±cy
@@ -21,10 +22,14 @@ This package is a little cache system optimized for file containers.
 It is fast and safe (because it uses file locking and/or
 anti-corruption tests).
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Ten pakiet zawiera ma³y system buforuj±cy zoptymalizowany dla
 kontenerów plików. Jest szybki i bezpieczny (poniewa¿ u¿ywa blokowania
 plików i/lub testów anti-corruption).
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
