@@ -6,7 +6,7 @@
 Summary:	%{_pearname} - Fast and Safe little cache system
 Summary(pl):	%{_pearname} - Szybki i bezpieczny system buforuj±cy
 Name:		php-pear-%{_pearname}
-Version:	1.0.1
+Version:	1.1
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
@@ -46,7 +46,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc %{_pearname}-%{version}/{tests,docs/*}
+%doc %{_pearname}-%{version}/{tests,docs/*,TODO}
 %dir %{php_pear_dir}/%{_class}/%{_subclass}
 %{php_pear_dir}/%{_class}/*.php
 %{php_pear_dir}/%{_class}/%{_subclass}/*.php
