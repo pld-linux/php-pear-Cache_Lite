@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - Fast and Safe little cache system
 Summary(pl):	%{_pearname} - Szybki i bezpieczny system buforuj±cy
 Name:		php-pear-%{_pearname}
-Version:	1.7.0
+Version:	1.7.1
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	2f501a1e248f3751ff7e182260580e25
+# Source0-md5:	e70a2aa6e790bd63d322b2f63ab6377c
 URL:		http://pear.php.net/package/Cache_Lite/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
