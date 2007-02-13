@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Fast and Safe little cache system
-Summary(pl.UTF-8):   %{_pearname} - Szybki i bezpieczny system buforujący
+Summary(pl.UTF-8):	%{_pearname} - Szybki i bezpieczny system buforujący
 Name:		php-pear-%{_pearname}
 Version:	1.7.2
 Release:	1
@@ -38,7 +38,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
