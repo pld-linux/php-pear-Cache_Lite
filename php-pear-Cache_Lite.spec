@@ -1,18 +1,15 @@
-%include	/usr/lib/rpm/macros.php
-%define		_class		Cache
-%define		_subclass	Lite
 %define		_status		stable
-%define		_pearname	%{_class}_%{_subclass}
-
+%define		_pearname	Cache_Lite
+%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Fast and Safe little cache system
 Summary(pl.UTF-8):	%{_pearname} - Szybki i bezpieczny system buforujący
 Name:		php-pear-%{_pearname}
-Version:	1.7.8
-Release:	3
+Version:	1.7.9
+Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	75c142769a4ca68afc72dcf4f494bdd6
+# Source0-md5:	e4b84a2016f995a193749d00028f0669
 URL:		http://pear.php.net/package/Cache_Lite/
 BuildRequires:	php-pear-PEAR >= 1:1.5.4
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -53,6 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc install.log
 %doc docs/%{_pearname}/{docs/*,TODO}
 %{php_pear_dir}/.registry/*.reg
-%dir %{php_pear_dir}/%{_class}/%{_subclass}
-%{php_pear_dir}/%{_class}/*.php
-%{php_pear_dir}/%{_class}/%{_subclass}/*.php
+%dir %{php_pear_dir}/Cache/Lite
+%{php_pear_dir}/Cache/*.php
+%{php_pear_dir}/Cache/Lite/*.php
