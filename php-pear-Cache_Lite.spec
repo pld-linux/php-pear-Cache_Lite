@@ -1,6 +1,5 @@
 %define		_status		stable
 %define		_pearname	Cache_Lite
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Fast and Safe little cache system
 Summary(pl.UTF-8):	%{_pearname} - Szybki i bezpieczny system buforujący
 Name:		php-pear-%{_pearname}
